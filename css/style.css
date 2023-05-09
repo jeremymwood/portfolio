@@ -72,10 +72,16 @@ ul a:hover:after {
     line-height:36px;
     display:inline-block;
 }
+.fa-brands:hover {
+    color: var(--hover);
+}
 .codeup-icon {
     /*position:absolute;*/
     height: 24px;
     width:24px;
+}
+.codeup-icon:hover {
+    text-shadow: var(--hover);
 }
 .email {
     text-decoration: none;
