@@ -1,6 +1,6 @@
 :root {
     --pink: #F080F2;
-    --red: red;
+    --hover: red;
 
     --dark-blue: #010326;
     --grey-blue: #393E59;
@@ -22,7 +22,6 @@
 .title {
     font-family: 'Chivo Mono', monospace;
     font-weight: bold;
-    font-size: 3rem;
 }
 body,html {
     background: var(--black);
@@ -34,19 +33,19 @@ ul {
 li {
     display: table-cell;
     position: relative;
-    padding: 15px 0;
+    /*padding: 15px 0;*/
 }
-a {
+ul a {
     color: var(--white);
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 0.15em;
 
     display: inline-block;
-    padding: 15px 20px;
+    /*padding: 15px 20px;*/
     position: relative;
 }
-a:after {
+ul a:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -58,16 +57,31 @@ a:after {
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
-a:hover {
-    color: var(--red);
+ul a:hover {
+    color: var(--hover);
 }
-a:hover:after {
-    color: var(--red);
+ul a:hover:after {
+    color: var(--hover);
     width: 100%;
     left: 0;
 }
-@media screen and (max-height: 300px) {
-    ul {
-        margin-top: 40px;
-    }
+.fa-brands {
+    font-size:24px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+}
+.codeup-icon {
+    /*position:absolute;*/
+    height: 24px;
+    width:24px;
+}
+.email {
+    text-decoration: none;
+    color: var(--white);
+}
+.email:hover {
+    /*text-decoration: none;*/
+    color: var(--hover);
 }
