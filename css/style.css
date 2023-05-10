@@ -1,27 +1,28 @@
 :root {
-    --pink: #F080F2;
     --hover: red;
-
-    --dark-blue: #010326;
-    --grey-blue: #393E59;
-    --dark-teal: #6FBFBF;
-    --light-teal: #82D9D9;
 
     --white: #ffffff;
     --black: #000000;
 
-    --light-blue: #E4EBF2;
-    --light-pink: #F2DAD8;
-    --light-yellow: #F2E9D8;
-    --light-green: #DAF2E5;
+    --ylw1: #F2E205;
+    --ylw2: #A68B03;
+    --ylw3: #736002;
+    --ylw4: #403501;
+    --dark: #0D0D0D;
+
 }
 * {
     font-family: 'Raleway', sans-serif;
     color: var(--white);
 }
-.title {
+.jmw-logo {
+    height: 2em;
+}
+h1 {
     font-family: 'Chivo Mono', monospace;
     font-weight: bold;
+    /*color: var(--black);*/
+    /*text-shadow: 0em 0em .25em var(--white);*/
 }
 body,html {
     background: var(--black);
