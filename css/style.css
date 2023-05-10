@@ -74,6 +74,12 @@ ul a:hover:after {
     line-height:36px;
     display:inline-block;
 }
+.fa-linkedin {
+    color: #0a66c2;
+}
+.fa-github {
+    color: var(--white);
+}
 .fa-brands:hover {
     color: var(--ylw1);
 }
