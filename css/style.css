@@ -1,17 +1,14 @@
 :root {
-    --white: #ffffff;
-    --black: #000000;
-
-    --ylw1: #F2E205;
-    --ylw2: #A68B03;
-    --ylw3: #736002;
-    --ylw4: #403501;
-    --dark: #0D0D0D;
+    --secondary-orange: #F25C05;
+    --dark-orange: #F27405;
+    --medium-orange: #F2913D;
+    --light-orange: #F2B279;
+    --cream: #F2E7DC;
 
 }
 * {
     font-family: 'Raleway', sans-serif;
-    color: var(--white);
+    color: var(--dark-orange);
 }
 .jmw-logo {
     height: 2em;
@@ -19,18 +16,19 @@
 h1 {
     font-family: 'Chivo Mono', monospace;
     font-weight: bold;
-    /*color: var(--black);*/
-    /*text-shadow: 0em 0em .25em var(--white);*/
 }
 body,html {
-    background: var(--black);
+    background: var(--cream);
+}
+header {
+    background: var(--cream);
 }
 ul {
     list-style: none;
     display: table;
 }
 hr {
-    color: var(--white);
+    color: var(--secondary-orange);
 }
 li {
     display: table-cell;
@@ -38,7 +36,7 @@ li {
     /*padding: 15px 0;*/
 }
 ul a {
-    color: var(--white);
+    color: var(--dark-orange);
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 0.15em;
@@ -55,15 +53,15 @@ ul a:after {
     height: 2px;
     left: 50%;
     position: absolute;
-    background: var(--white);
+    background: var(--dark-orange);
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
 ul a:hover {
-    color: var(--white);
+    color: var(--secondary-orange);
 }
 ul a:hover:after {
-    color: var(--white);
+    color: var(--secondary-orange);
     width: 100%;
     left: 0;
 }
@@ -78,10 +76,10 @@ ul a:hover:after {
     color: #0a66c2;
 }
 .fa-github {
-    color: var(--white);
+    color: black;
 }
 .fa-brands:hover {
-    color: var(--white);
+    color: var(--medium-orange);
 }
 .codeup-icon, .codeup-icon-hover {
     /*position:absolute;*/
@@ -90,9 +88,17 @@ ul a:hover:after {
 }
 .email {
     text-decoration: none;
-    color: var(--white);
+}
+.email h6 {
+    border-color: var(--secondary-orange) !important;
+    color: var(--secondary-orange);
+}
+.email h6 {
+    border-color: var(--light-orange) !important;
 }
 .email:hover {
-    /*text-decoration: underline;*/
-    color: var(--white);
+    background-color: var(--light-orange);
+}
+.email h6:hover {
+    color: var(--cream);
 }
