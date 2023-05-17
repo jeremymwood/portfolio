@@ -8,7 +8,7 @@
 }
 * {
     font-family: 'Raleway', sans-serif;
-    color: var(--dark-orange);
+    color: white;
 }
 .jmw-logo {
     height: 2em;
@@ -18,17 +18,17 @@ h1 {
     font-weight: bold;
 }
 body,html {
-    background: var(--cream);
+    background: black;
 }
 header {
-    background: var(--cream);
+    background: black;
 }
 ul {
     list-style: none;
     display: table;
 }
 hr {
-    color: var(--secondary-orange);
+    color: white;
 }
 li {
     display: table-cell;
@@ -36,7 +36,7 @@ li {
     /*padding: 15px 0;*/
 }
 ul a {
-    color: var(--dark-orange);
+    color: white;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 0.15em;
@@ -53,15 +53,15 @@ ul a:after {
     height: 2px;
     left: 50%;
     position: absolute;
-    background: var(--dark-orange);
+    background: white;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
 ul a:hover {
-    color: var(--secondary-orange);
+    color: white;
 }
 ul a:hover:after {
-    color: var(--secondary-orange);
+    color: white;
     width: 100%;
     left: 0;
 }
@@ -76,11 +76,11 @@ ul a:hover:after {
     color: #0a66c2;
 }
 .fa-github {
-    color: black;
+    color: white
 }
-.fa-brands:hover {
-    color: var(--medium-orange);
-}
+/*.fa-brands:hover {*/
+/*    color: white;*/
+/*}*/
 .codeup-icon, .codeup-icon-hover {
     /*position:absolute;*/
     height: 24px;
@@ -90,15 +90,15 @@ ul a:hover:after {
     text-decoration: none;
 }
 .email h6 {
-    border-color: var(--secondary-orange) !important;
-    color: var(--secondary-orange);
+    border-color: white !important;
+    color: white;
 }
 .email h6 {
-    border-color: var(--light-orange) !important;
+    border-color: white !important;
 }
 .email:hover {
-    background-color: var(--light-orange);
+    background-color: white;
 }
 .email h6:hover {
-    color: var(--cream);
+    color: black;
 }
